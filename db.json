@@ -1,0 +1,82 @@
+{
+    "tiles": [
+        {
+            "caption": "Earn Qantas Points",
+            "name": "Qantas",
+            "addOnURL": "https://www.qantas.com/au/en/frequent-flyer/discover-and-join/join.html",
+            "id": "2B5D8C09-8ECB-4A3F-9D32-7B48EF4F1F03",
+            "wordmarkURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLD-a9Cdw-mVb2amCwMEB8kGyo6vbThwzVCsmdNcto&s"
+        },
+        {
+            "caption": "Cheap petrol finder",
+            "addOnURL": "http://localhost:3000/?postcode=2150&fueltype=E10",
+            "name": "Petrol Spy",
+            "id": "2B5D8C09-8ECB-4A3F-9D32-7B48EF4F1F02",
+            "wordmarkURL": "https://play-lh.googleusercontent.com/uNBqDNRzj4daofHTY7UuD-OEbLcnx-rkmhUGqo1pQhG4pui07rjCKSIPII-poitoYi4=w240-h480"
+        }
+    ],
+    "partners": [
+        {
+            "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+            "name": "Petrol Spy",
+            "caption": "Cheap petrol finder",
+            "description": " **About PetrolSpy**\n\n\nFuel app made in Australia for Australia! PetrolSpy is a real-time fuel pricing map for QLD, SA, NSW and WA. You can compare petrol prices submitted by other users near you or by postcode/suburb Australia-wide.\n\n- Real-time fuel pricing map for QLD, SA, NSW and WA \n- Compare petrol prices submitted by other users near you or by postcode/suburb Australia-wide! \n- Chance to win a $25 fuel card every day with every price update \n- FuelCheck prices for NSW\n\n\n**Other description**\n\n\nFuel app made in Australia for Australia! PetrolSpy is a real-time fuel pricing map for QLD, SA, NSW and WA. You can compare petrol prices submitted by other users near you or by postcode/suburb Australia-wide.\n\n\n**More information**\n\n\nPetrolSpy has a highly comprehensive coverage of fuel station locations in Australia! Petrol Spy includes site locations for Ampol, Caltex, Woolworths, Shell, Coles Express, BP, 7-Eleven, United Petroleum, Puma and many more independent operators.\n\n\nCopyright: © Pinecone Software Pty Ltd\n\n",
+            "bannerURL": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTt6U1YulvvE3zq95tROLmQGnuPRx67lh4TWwsAadahPKws7B6k",
+            "wordmarkURL": "https://play-lh.googleusercontent.com/uNBqDNRzj4daofHTY7UuD-OEbLcnx-rkmhUGqo1pQhG4pui07rjCKSIPII-poitoYi4=w240-h480",
+            "addOnURL": "http://localhost:3000/?postcode=2150&fueltype=E10"
+        },
+        {
+            "id": "d290f1ee-6c54-4b01-90e6-d701748f0852",
+            "name": "Qantas",
+            "caption": "Earn Qantas Points",
+            "description": "Earn Qantas Points on eligible purchases with a Qantas Business Rewards account. T&Cs apply.",
+            "bannerURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbra6q53lS1eOsKf_wfZLrlQIE5acXx3ykoeeWchqCFA&s",
+            "wordmarkURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLD-a9Cdw-mVb2amCwMEB8kGyo6vbThwzVCsmdNcto&s",
+            "addOnURL": "https://www.qantas.com/au/en/frequent-flyer/discover-and-join/join.html"
+        },
+        {
+            "id": "d290f1ee-6c54-4b01-90e6-d701748f0853",
+            "name": "Woolworths",
+            "caption": "Earn Woolworths Points",
+            "description": "Earn Woolworths Points on eligible purchases with a Woolworths Rewards account. T&Cs apply.",
+            "bannerURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbra6q53lS1eOsKf_wfZLrlQIE5acXx3ykoeeWchqCFA&s",
+            "wordmarkURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6THLWHObeXUHzkV6JtLCU4h4RPMOmkNX7KlTEtTm9EA&s",
+            "addOnURL": "https://www.woolworthsrewards.com.au/"
+        },
+        {
+            "id": "d290f1ee-6c54-4b01-90e6-d701748f0854",
+            "name": "Coles",
+            "caption": "Earn Coles Points",
+            "description": "Earn Coles Points on eligible purchases with a Coles Rewards account. T&Cs apply.",
+            "bannerURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbra6q53lS1eOsKf_wfZLrlQIE5acXx3ykoeeWchqCFA&s",
+            "wordmarkURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV3x1fpune3pM0AtVqEcjv9WARY2qEq6Gwvxk2D_T-&s",
+            "addOnURL": "https://www.coles.com.au/rewards"
+        }
+    ],
+    "getTileData": {
+        "response": {
+            "id": "2B5D8C09-8ECB-4A3F-9D32-7B48EF4F1F02",
+            "type": "table",
+            "wordmarkURL": "https://i.imgur.com/9BztCQ3.png",
+            "caption": "Cheap petrol finder",
+            "data": [
+                {
+                    "value": "Diesel",
+                    "label": "Petrol"
+                },
+                {
+                    "value": "185.3c/L",
+                    "label": "Price"
+                },
+                {
+                    "value": "Budget Petrol",
+                    "label": "Station"
+                },
+                {
+                    "value": "2000",
+                    "label": "Post code"
+                }
+            ]
+        }
+    }
+}
